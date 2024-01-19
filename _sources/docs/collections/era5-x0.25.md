@@ -1,10 +1,10 @@
-(cru-x0.5)=
+(era5-x0.25)=
 
-# CRU TS
+# ERA5
 
-CRU TS (Climatic Research Unit gridded Time Series) is the most widely used observational climate dataset. Data is presented on a 0.5° latitude by 0.5° longitude grid over all land domains except Antarctica. It is derived by the interpolation of monthly climate anomalies from extensive networks of weather station observations. The CRU TS version 4.07 gridded dataset is derived from observational data and provides quality-controlled temperature and rainfall values from thousands of weather stations worldwide, as well as derivative products including monthly climatologies and long term historical climatologies. The dataset is produced by the Climatic Research Unit (CRU) of the University of East Anglia (UEA)
+ERA5 is the fifth generation ECMWF atmospheric reanalysis of the global climate covering the period from January 1950 to 2022. ERA5 is originally produced by the Copernicus Climate Change Service (C3S) at ECMWF at on original grid of 0.50-degree. ERA5 products derived by CCKP are downscaled and available at 0.25-degree.
 
-## cru-x0.5 Structure
+## era5-x0.25 Structure
 
 Collection:<br/>
 &nbsp;&nbsp;&nbsp;Variable:<br/>
@@ -16,16 +16,22 @@ Collection:<br/>
 
 ### *Collection*
 
-- cru-x0.5
+- era5-x0.25
 
 ### *Variable*
 
-| **Variable Code** | **Variable Label** |
+| **Variable Cove** | **Variable Label** |
 | --- | --- |
+| fd | Number of Frost Days (Tmin < 0°C) |
 | pr | Precipitation |
+| rx1day | Average Largest 1-Day Precipitation |
+| rx5day | Average Largest 5-Day Cumulative Precipitation |
 | tas | Average Mean Surface Air Temperature |
 | tasmax | Average Maximum Surface Air Temperature |
 | tasmin | Average Minimum Surface Air Temperature |
+| tnn | Minimum of Daily Min-Temperature |
+| tr | Number of Tropical Nights (T-min > 20°C) |
+| txx | Maximum of Daily Max-Temperature |
 
 <br>
 
@@ -33,14 +39,14 @@ Collection:<br/>
 
 | **Product Code** | **Product Label** |
 | --- | --- |
-| climatology | climatology |
-| heatplot | heatplot |
-| timeseries | timeseries |
-| timeseries-smooth | Time Series-smooth |
+| climatology | Climatology |
+| trend | Trend |
+| trendconfidence | Trend Confidence |
+| trendsignificance | Trend Significance |
 
 ### *Scenario*
 
-- historical\_cru\_ts4.07
+- historical\_era5
 
 ### *Aggregation*
 
@@ -52,14 +58,10 @@ Collection:<br/>
 
 <br>
 
-### *Time Period*
-
+*TimePeriod:*
 | **Time Period** |
 | --- |
-| 1901-2022 |
-| 1901-1930 |
-| 1931-1960 |
-| 1961-1990 |
+| 1950-2022 |
 | 1991-2020 |
 | 1995-2014 |
 
@@ -67,9 +69,8 @@ Collection:<br/>
 
 ### *Product Type*
 
-| **Product Type Code** | **Product Type Label** |
+| **Produce Type Code** | **Product Type Label** |
 | --- | --- |
 | climatology | climatology |
 | heatplot | heatplot |
 | timeseries | timeseries |
-| timeseries-smooth | Time Series-smooth |

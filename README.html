@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Climate Change Knowledge Portal NetCDF Data Documentation</title>
+    <title>World Bank – Climate Change Knowledge Portal Data Collections on AWS</title>
   
   
   
@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+  <link href="_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
 
   
-  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=bd9e20870c6007c4c509" rel="stylesheet" />
+  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
@@ -39,9 +39,9 @@
     <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=bd9e20870c6007c4c509" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=bd9e20870c6007c4c509" />
-  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=bd9e20870c6007c4c509"></script>
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -67,10 +67,10 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="canonical" href="https://worldbank.github.io/climateknowledgeportal/README.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Directory Structure and File Name" href="docs/file-structure.html" />
+    <link rel="next" title="CMIP6" href="docs/collections/cmip6-x0.25.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="Jan 14, 2024"/>
+    <meta name="docbuild:last-update" content="Jan 19, 2024"/>
   </head>
   
   
@@ -81,7 +81,6 @@ const thebe_selector_output = ".output, .cell_output"
   <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
   
   <div id="pst-scroll-pixel-helper"></div>
-
   
   <button type="button" class="btn rounded-pill" id="pst-back-to-top">
     <i class="fa-solid fa-arrow-up"></i>
@@ -121,13 +120,10 @@ const thebe_selector_output = ".output, .cell_output"
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
 </form></div>
   </div>
-
-  <header>
   
-    <div class="bd-header navbar navbar-expand-lg bd-navbar">
-    </div>
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
   
-  </header>
 
   <div class="bd-container">
     <div class="bd-container__inner bd-page-width">
@@ -174,25 +170,27 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
-                    Climate Change Knowledge Portal NetCDF Data Documentation
+                    World Bank – Climate Change Knowledge Portal Data Collections on AWS
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Structure and Contents</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Available Selections Per Each Collection</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="docs/file-structure.html">Directory Structure and File Name</a></li>
-<li class="toctree-l1"><a class="reference internal" href="docs/date-and-time-standards.html">Data and Time Standards</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="docs/collections/cmip6-x0.25.html">CMIP6</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="notebooks/cmip6-x0.25.html">cmip6-x0.25 Example</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Collections</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="docs/collections/cmip6-x0.25.html">cmip6-x0.25 File Structure</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks/cmip6-x0.25.html">cmip6-x0.25 Example</a></li>
-<li class="toctree-l1"><a class="reference internal" href="docs/collections/cru-x0.5.html">cru-x0.5 File Structure</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks/cru-x0.5.html">cru-x0.25 Example</a></li>
-<li class="toctree-l1"><a class="reference internal" href="docs/collections/era5-x0.5.html">era5-x0.5 File Structure</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks/era5-x0.5.html">era5-x0.25 Example</a></li>
-<li class="toctree-l1"><a class="reference internal" href="docs/collections/pop-x1.html">pop-x1 File Structure</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks/pop-x1.html">pop-x1 Example</a></li>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="docs/collections/cru-x0.5.html">CRU TS</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="notebooks/cru-x0.5.html">cru-x0.25 Example</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="docs/collections/era5-x0.25.html">ERA5</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="docs/collections/pop-x0.25.html">Pop-x0.25, Population and Poverty</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="notebooks/pop-x0.25.html">pop-x0.25</a></li>
+</ul>
+</li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Additional Resources</span></p>
 <ul class="nav bd-sidenav">
@@ -400,7 +398,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Climate Change Knowledge Portal NetCDF Data Documentation</h1>
+    <h1>World Bank – Climate Change Knowledge Portal Data Collections on AWS</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -410,9 +408,22 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#accessing-climate-change-knowledge-portal-data-on-aws">Accessing Climate Change Knowledge Portal Data On AWS</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#climate-change-knowledge-portal-file-structure">Climate Change Knowledge Portal File Structure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sub-level-1-collection">Sub-Level 1 - Collection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sub-level-2-variable">Sub-Level 2 – Variable</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sub-level-3-dataset">Sub-Level 3 – Dataset</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sub-level-4-data">Sub-Level 4 – Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#file-naming-convention">File Naming Convention</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ins-examples-at-various-sub-levels-and-facets-ins"><ins> Examples at various sub-levels and facets: </ins></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ins-priority-structure-for-search-ins"><ins> Priority structure for search: </ins></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ins-single-file-query-example-ins"><ins> Single file query example: </ins></a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#available-selections-per-each-collection">Available Selections Per Each Collection</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-documentation">Data Documentation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-resources">Additional Resources</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributing">Contributing</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
 </ul>
@@ -426,43 +437,115 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="climate-change-knowledge-portal-netcdf-data-documentation">
-<h1>Climate Change Knowledge Portal NetCDF Data Documentation<a class="headerlink" href="#climate-change-knowledge-portal-netcdf-data-documentation" title="Permalink to this heading">#</a></h1>
-<p>The <a class="reference external" href="https://climateknowledgeportal.worldbank.org">Climate Change Knowledge Portal (CCKP)</a> provides global data on historical and future climate, vulnerabilities, and impacts. The CCKP <strong>netCDF data</strong> is available for download via the <a class="reference external" href="https://registry.opendata.aws/">Registry of Open Data on AWS</a>. This repository houses access instructions, examples and additional information on how to retrieve and use the CCKP <strong>netCDF data</strong>.</p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>Alternatively, exploration of the CCKP dataset can be done via the <a class="reference external" href="https://climateknowledgeportal.worldbank.org/">CCKP Website</a> which provides a user interface to explore and download the data.
-API and documentation of the API structure is also available via the website.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="world-bank-climate-change-knowledge-portal-data-collections-on-aws">
+<h1>World Bank – Climate Change Knowledge Portal Data Collections on AWS<a class="headerlink" href="#world-bank-climate-change-knowledge-portal-data-collections-on-aws" title="Permalink to this heading">#</a></h1>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">#</a></h2>
+<p>The World Bank’s Climate Change Knowledge Portal (CCKP) provides open access to a comprehensive suite of climate and climate change resources derived from the latest generation of climate data archives. Products are based on a consistent and transparent approach with a systematic way of pre-processing the raw observed and model-based projection data to enable inter-comparable use across a broad range of applications. Climate products consist of basic climate variables as well as a large collection (70+) of more specialized, application-orientated variables and indices across different scenarios. Precomputed data can be extracted per specified variables, select timeframes, climate projection scenarios, as multi-model ensembles or by individual models. CCKP adheres to data distribution standards defined under the Coupled Model Intercomparison Project (CMIP) and its contributions to the Intergovernmental Panel on Climate Change (IPCC) Assessment Reports and latest scientific methodologies identified by the World Meteorological Organization and climate science community.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>Access the World Bank Climate Change Portal: <a class="reference external" href="https://climateknowledgeportal.worldbank.org">https://climateknowledgeportal.worldbank.org</a></p>
 </div>
-<section id="table-of-contents">
-<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Permalink to this heading">#</a></h2>
-<div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Structure and Contents</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="docs/file-structure.html">Directory Structure and File Name</a></li>
-<li class="toctree-l1"><a class="reference internal" href="docs/date-and-time-standards.html">Data and Time Standards</a></li>
+<p>This data archive consists of global gridded NetCDF files that represent ~35 models, 70+ variables, 5 SSPs, multiple climatology periods, 3 temporal aggregations (annual, seasonal, monthly), plus additional statistics for specific variable presentations.</p>
+<p>Climate products are global and are available for the following <strong>collections</strong>:</p>
+<p><strong>cmip6-x0.25:</strong> CMIP6 downscaled, bias corrected 0.25-degree – 1950-2100;<br/>
+<strong>era5-x0.25:</strong> EAR5 global 0.25-degree – 1950-2022;<br/>
+<strong>cru-x0.5:</strong> CRU global 0.50-degree – 1901-2022;<br/>
+<strong>pop-x0.25:</strong> Population global 0.25-degree – 1995-2100 (Gridded Population of the World Version 4).</p>
+</section>
+<section id="accessing-climate-change-knowledge-portal-data-on-aws">
+<h2>Accessing Climate Change Knowledge Portal Data On AWS<a class="headerlink" href="#accessing-climate-change-knowledge-portal-data-on-aws" title="Permalink to this heading">#</a></h2>
+<p>You can access these data via the link, <code class="docutils literal notranslate"><span class="pre">&lt;AWS</span> <span class="pre">CLI</span> <span class="pre">link</span> <span class="pre">TBD&gt;</span></code> and using the web interface via the AWS console. To get a list for all variables and climate indicators available for the CMIP6 data at 0.25x0.25 degree resolution, this sub-directory will list them (using the <font color='#E83E8C'>–no-sign-request</font> flag since this bucket is public):</p>
+</section>
+<section id="climate-change-knowledge-portal-file-structure">
+<h2>Climate Change Knowledge Portal File Structure<a class="headerlink" href="#climate-change-knowledge-portal-file-structure" title="Permalink to this heading">#</a></h2>
+<p>The collections of WB-CCKP raster data stored under the root AWS S3 bucket <code class="docutils literal notranslate"><span class="pre">&lt;AWS</span> <span class="pre">CLI</span> <span class="pre">link</span> <span class="pre">TBD&gt;</span></code>.  The different collections, their variables and datasets with individual raster products (netCDF files) are organized by a hierarchy of facets that follow this structure:</p>
+<p><strong>Example file: (with ‘..’ representing the root of the CCKP S3 bucket)</strong>:</p>
+<p>       ../<font color='#FF0000'>Sub-Level 1</font>/<font color='#ED7D31'>Sub-Level 2</font>/<font color='#FFD966'>Sub-Level 3</font>/Sub-Level 4 (data)</p>
+<p>       ../<font color='#FF0000'>collection</font>/<font color='#ED7D31'>variable</font>/<font color='#FFD966'>Model</font>-<font color='#C45911'>scenario</font>/filename.nc<br/>
+         <br><b>with <a class="reference external" href="http://filename.nc">filename.nc</a> being:</b><br><br/>
+       <font color='#A8D08D'>product</font>-<font color='#ED7D31'>variable</font>-<font color='#B4C6E7'>aggregationperiod</font>-<font color='#4472C4'>statistic</font>_<font color='#FF0000'>collection</font>_<font color='#FFC000'>modelwithscenario</font>_<font color='#538135'>category</font>_<font color='#404040'>percentile</font>_<font color='#AEAAAA'>timeperiod</font>.nc</p>
+<section id="sub-level-1-collection">
+<h3>Sub-Level 1 - Collection<a class="headerlink" href="#sub-level-1-collection" title="Permalink to this heading">#</a></h3>
+<p>Under the CCKP root, the first level is the level of “Collection” (<em>cmip6-x0.25</em>, <em>era5</em>, <em>cru</em>, …). This represents the fundamental dataset collection. Inside each of these collections, the same structure is offered, albeit with potentially different entries.</p>
+</section>
+<section id="sub-level-2-variable">
+<h3>Sub-Level 2 – Variable<a class="headerlink" href="#sub-level-2-variable" title="Permalink to this heading">#</a></h3>
+<p>The first sub-level is the level of the variable. These are basic climate variables (<em>tas</em>, <em>pr</em>, …) as well as climate indicators derived from basic variables (<em>txx</em>, <em>rx1day</em>, <em>cdd</em>, <em>hi35</em>, …).</p>
+</section>
+<section id="sub-level-3-dataset">
+<h3>Sub-Level 3 – Dataset<a class="headerlink" href="#sub-level-3-dataset" title="Permalink to this heading">#</a></h3>
+<p>Below each of these “variables” (or indicators), there is the “Dataset”, which represents the source itself. This facet is more granular than the collection, because at this level the different versions and individual simulations are being distinguished. For example, the model <em>access-cm2</em> with model simulation variant <em>r1i1p1f1</em> for the simulation covering the historical period is an exactly defined, single simulation (one model run). This allows to distinguish this dataset from an entry of <em>“access-cm2-r2i1p1f1-historical”</em> (note difference in variant label <em>r2</em> vs <em>r1</em>). For observational data with evolving versions, the dataset level distinguishes these entries: <em>cru-ts4.07-historical</em> is different from <em>cru-ts4.07-historical</em>.</p>
+</section>
+<section id="sub-level-4-data">
+<h3>Sub-Level 4 – Data<a class="headerlink" href="#sub-level-4-data" title="Permalink to this heading">#</a></h3>
+<p>The final level stores the actual data files where the content is being distinguished in the file naming convention.:</p>
+</section>
+<section id="file-naming-convention">
+<h3>File Naming Convention<a class="headerlink" href="#file-naming-convention" title="Permalink to this heading">#</a></h3>
+<p>The file names are designed to be self-explanatory, meaning they can be copied somewhere and still retain the full information of the collection, variable and dataset source in addition to the actual content. The facets in the file name are as follows:</p>
+<p>       ../<font color='#FF0000'>cmip6-x0.25</font>/<font color='#ED7D31'>tas</font>/<font color='#FFD966'>access-cm2-r1i1p1f1-</font><font color='#C45911'>historical</font>/<br/>
+         <font color='#A8D08D'>climatology</font>-<font color='#ED7D31'>tas</font>-<font color='#B4C6E7'>annual</font>-<font color='#4472C4'>mean</font>_<font color='#FF0000'>cmip6-x0.25</font>_<font color='#FFC000'>access-cm2-r1i1p1f1-historical</font>_<font color='#538135'>climatology</font>_<font color='#404040'>mean</font>_<font color='#AEAAAA'>1995-2014</font>.nc</p>
+</section>
+<section id="ins-examples-at-various-sub-levels-and-facets-ins">
+<h3><ins> Examples at various sub-levels and facets: </ins><a class="headerlink" href="#ins-examples-at-various-sub-levels-and-facets-ins" title="Permalink to this heading">#</a></h3>
+<p><font color='#FF0000'>Collection: {cmip6-x0.25,cru-x0.5,era5-x0.25,pop-x1,…}</font><br/>
+   <font color='#ED7D31'>Variable: {tas,tasmax,tasmin,txx,tnn,…}</font><br/>
+      <font color='#FFD966'>Datasetwithscenario: {ensemble-all-historical, access-cm2-r1i1p1f1-historical…}</font><br/>
+         <font color='#538135'>ProductType: {timeseries,climatology,heatplot}</font><br/>
+            <font color='#A8D08D'>Product: {timeseries,climatology,anomaly,trend,trendsignificance,…}</font><br/>
+               <font color='#B4C6E7'>AggregationPeriod: {annual,seasonal,monthly}</font><br/>
+                  <font color='#4472C4'>Statistic: {mean,min,max}</font><br/>
+                     <font color='#AEAAAA'>TimePeriod: {1950-2014,2015-2100,2020-2039,….}</font><br/>
+                        <font color='#404040'>Percentile: {mean,median,p10,p90,…}</font><br/></p>
+<p>Note, the “scenario”, which is a sub-level of the Dataset, is also a separate facet that can be searched, so that a specific projection scenario can be selected (historical, ssp126, ssp245, …).</p>
+</section>
+<section id="ins-priority-structure-for-search-ins">
+<h3><ins> Priority structure for search: </ins><a class="headerlink" href="#ins-priority-structure-for-search-ins" title="Permalink to this heading">#</a></h3>
+<p><font color='#FF0000'>Collection: {cmip6-x0.25,cru-x0.5,era5-x0.25,pop-x1,…}</font><br/>
+   <font color='#ED7D31'>Variable: {tas,tasmax,tasmin,txx,tnn,…}</font><br/>
+      <font color='#A8D08D'>Product: {timeseries,climatology,anomaly,trend,…}</font><br/>
+         <font color='#C45911'>Scenario: {historical,ssp119,ssp126,ssp245,ssp370,ssp585}</font><br/>
+            <font color='#B4C6E7'>Aggregation: {annual,seasonal,monthly</font><br/>
+               <font color='#FFD966'>Model including scenario {ensemble-all-historical,access-cm2-r1i1p1f1-ssp126}</font><br/>
+                  <font color='#AEAAAA'>TimePeriod: {1950-2014,2015-2100,2020-2039,….}</font><br/>
+                     <font color='#404040'>Percentile: {mean,median,p10,p90}</font><br/>
+                        <font color='#538135'>ProductType: {timeseries,climatology,heatplot}</font><br/>
+                           <font color='#4472C4'>Statistic: {mean,min,max}</font><br/></p>
+</section>
+<section id="ins-single-file-query-example-ins">
+<h3><ins> Single file query example: </ins><a class="headerlink" href="#ins-single-file-query-example-ins" title="Permalink to this heading">#</a></h3>
+<p>Collection: cmip6-x0.25<br/>
+   Variable: tas<br/>
+      Product: trend<br/>
+         Scenario: ssp585<br/>
+            Aggregation: annual<br/>
+               Model: ensemble-all<br/>
+                  TimePeriod: 1971-2020<br/>
+                     Percentile: mean<br/>
+                        Product Type: climatology<br/>
+                           Statistic: mean<br/></p>
+</section>
+</section>
+<section id="available-selections-per-each-collection">
+<h2>Available Selections Per Each Collection<a class="headerlink" href="#available-selections-per-each-collection" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="docs/collections/cmip6-x0.25.html#cmip6-x0-25"><span class="std std-ref">CMIP6</span></a></p></li>
+<li><p><a class="reference internal" href="docs/collections/cru-x0.5.html#cru-x0-5"><span class="std std-ref">CRU TS</span></a></p></li>
+<li><p><a class="reference internal" href="docs/collections/era5-x0.25.html#era5-x0-25"><span class="std std-ref">ERA5</span></a></p></li>
+<li><p><a class="reference internal" href="docs/collections/pop-x0.25.html#pop-x0-25"><span class="std std-ref">Pop-x0.25, Population and Poverty</span></a></p></li>
 </ul>
-</div>
-<div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Collections</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="docs/collections/cmip6-x0.25.html">cmip6-x0.25 File Structure</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks/cmip6-x0.25.html">cmip6-x0.25 Example</a></li>
-<li class="toctree-l1"><a class="reference internal" href="docs/collections/cru-x0.5.html">cru-x0.5 File Structure</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks/cru-x0.5.html">cru-x0.25 Example</a></li>
-<li class="toctree-l1"><a class="reference internal" href="docs/collections/era5-x0.5.html">era5-x0.5 File Structure</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks/era5-x0.5.html">era5-x0.25 Example</a></li>
-<li class="toctree-l1"><a class="reference internal" href="docs/collections/pop-x1.html">pop-x1 File Structure</a></li>
-<li class="toctree-l1"><a class="reference internal" href="notebooks/pop-x1.html">pop-x1 Example</a></li>
+</section>
+<section id="data-documentation">
+<h2>Data Documentation<a class="headerlink" href="#data-documentation" title="Permalink to this heading">#</a></h2>
+<p>A detailed documentation of the data content can be found in the CCKP Meta Data Document at: <a class="reference external" href="https://climateknowledgeportal.worldbank.org/media/document/metatag.pdf">https://climateknowledgeportal.worldbank.org/media/document/metatag.pdf</a></p>
+</section>
+<section id="additional-resources">
+<h2>Additional Resources<a class="headerlink" href="#additional-resources" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://climateknowledgeportal.worldbank.org/">Climate Change Knowledge Portal</a></p></li>
+<li><p><a class="reference external" href="https://registry.opendata.aws/">Registry of Open Data on AWS</a></p></li>
 </ul>
-</div>
-<div class="toctree-wrapper compound">
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Additional Resources</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference external" href="https://climateknowledgeportal.worldbank.org">Climate Change Knowledge Portal</a></li>
-<li class="toctree-l1"><a class="reference external" href="https://registry.opendata.aws/">Registry of Open Data on AWS</a></li>
-</ul>
-</div>
 </section>
 <section id="contributing">
 <h2>Contributing<a class="headerlink" href="#contributing" title="Permalink to this heading">#</a></h2>
@@ -470,8 +553,12 @@ API and documentation of the API structure is also available via the website.</p
 </section>
 <section id="license">
 <h2>License<a class="headerlink" href="#license" title="Permalink to this heading">#</a></h2>
-<p>The <a class="reference external" href="https://github.com/worldbank/climateknowledgeportal">Climate Change Knowledge Portal NetCDF Data Documentation</a> is licensed under the <a class="reference download internal" download="" href="_downloads/9879d6db96fd29134fc802214163b95a/LICENSE"><span class="xref download myst"><strong>World Bank Master Community License Agreement</strong></span></a>.</p>
+<p><a class="reference external" href="https://github.com/worldbank/climateknowledgeportal">This documentation</a> is licensed under the <a class="reference download internal" download="" href="_downloads/9879d6db96fd29134fc802214163b95a/LICENSE"><span class="xref download myst"><strong>Mozilla Public License</strong></span></a>.</p>
 </section>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -505,11 +592,11 @@ API and documentation of the API structure is also available via the website.</p
                   
 <div class="prev-next-area">
     <a class="right-next"
-       href="docs/file-structure.html"
+       href="docs/collections/cmip6-x0.25.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Directory Structure and File Name</p>
+        <p class="prev-next-title">CMIP6</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -529,9 +616,22 @@ API and documentation of the API structure is also available via the website.</p
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#accessing-climate-change-knowledge-portal-data-on-aws">Accessing Climate Change Knowledge Portal Data On AWS</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#climate-change-knowledge-portal-file-structure">Climate Change Knowledge Portal File Structure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sub-level-1-collection">Sub-Level 1 - Collection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sub-level-2-variable">Sub-Level 2 – Variable</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sub-level-3-dataset">Sub-Level 3 – Dataset</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sub-level-4-data">Sub-Level 4 – Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#file-naming-convention">File Naming Convention</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ins-examples-at-various-sub-levels-and-facets-ins"><ins> Examples at various sub-levels and facets: </ins></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ins-priority-structure-for-search-ins"><ins> Priority structure for search: </ins></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ins-single-file-query-example-ins"><ins> Single file query example: </ins></a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#available-selections-per-each-collection">Available Selections Per Each Collection</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-documentation">Data Documentation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-resources">Additional Resources</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributing">Contributing</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
 </ul>
@@ -560,7 +660,7 @@ By Climate Change Knowledge Portal Team
   
   <div class="footer-item">
     <p class="last-updated">
-  Last updated on Jan 14, 2024.
+  Last updated on Jan 19, 2024.
   <br/>
 </p>
   </div>
@@ -569,7 +669,10 @@ By Climate Change Knowledge Portal Team
     
 <div class="extra_footer">
   <div>
-    <b>All content (unless otherwise specified) is subject to the <a href="https://raw.githubusercontent.com/worldbank/template/main/LICENSE">World Bank Master Community License Agreement.</a></b>
+ Country borders or names do not necessarily reflect the World Bank Group’s official position. All maps are for illustrative purposes and do not imply the expression of any opinion on the part of the World Bank, concerning the legal status of any country or territory or concerning the delimitation of frontiers or boundaries
+</div>
+<div>
+    <b>All content (unless otherwise specified) is subject to the <a href="https://www.mozilla.org/en-US/MPL">Mozilla Public License.</a></b>
 </div>
 
 </div>
@@ -584,8 +687,8 @@ By Climate Change Knowledge Portal Team
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=bd9e20870c6007c4c509"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=bd9e20870c6007c4c509"></script>
+  <script src="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
 
   <footer class="bd-footer">
   </footer>
